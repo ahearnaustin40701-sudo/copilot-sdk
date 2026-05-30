@@ -1,0 +1,56 @@
+# Docker-related patterns
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+.build-temp/
+.cli-cache/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+DOCKER.md
+LICENSE
+LICENSE.md
+CLI-LICENSE.md
+
+# CI/CD
+.github/
+
+# Development
+develop/
+tests/
+docs/
